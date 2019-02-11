@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">BinaryTreeTraversal</string>
+    <string name="settings">Settings</string>
+    <string name="choose_type_of_traversal">Choose Type of Traversal</string>
+    <string name="traversal">Traversal:</string>
+    <string name="about_message">This is a tree traversal app. You have the option to choose between:\n\n1) a binary-search tree\n2) a red-black tree\n\nOnce you chose your desired tree, the app will take in integer data and produces the chosen tree. You can choose the traversal of the tree through the settings menu once you choose the tree(by default it\'s in-order traversal).</string>
+    <string-array name="traversals">
+        <item>in-order</item>
+        <item>pre-order</item>
+        <item>post-order</item>
+    </string-array>
+</resources>

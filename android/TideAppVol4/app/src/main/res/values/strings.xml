@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">TideApp</string>
+    <string-array name="locations_array">
+        <item>Santa Barbara, CA</item>
+        <item>La Push, WA</item>
+        <item>Florence, OR</item>
+        <item>Half Moon Bay, OR</item>
+        <item>Charleston, OR</item>
+        <item>South Beach, OR</item>
+        <item>Weiser Point, OR</item>
+        <item>Garibaldi, OR</item>
+        <item>Dick Point, OR</item>
+        <item>Gold Beach, OR</item>
+        <item>Port Orford, OR</item>
+        <item>Cape Disappointment, OR</item>
+        <item>Hammond, OR</item>
+        <item>Rocky Point, OR</item>
+    </string-array>
+</resources>

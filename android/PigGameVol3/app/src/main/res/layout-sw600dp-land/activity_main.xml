@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:baselineAligned="false">
+
+    <fragment
+        android:id="@+id/fragment_1"
+        android:name="edu.uoregon.parsab.piggamevol3.Fragment1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout="@layout/fragment_1"
+        android:layout_weight="1" />
+
+    <fragment
+        android:id="@+id/fragment_2"
+        android:name="edu.uoregon.parsab.piggamevol3.Fragment2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout="@layout/fragment_2"
+        android:layout_weight="1" />
+
+</LinearLayout>
