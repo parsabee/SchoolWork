@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="13772" systemVersion="17B1003" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="TreeName" representedClassName=".TreeName" syncable="YES" codeGenerationType="category">
+        <attribute name="tree_name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="name_traversal" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="TreeTraversal" inverseName="traversal_name" inverseEntity="TreeTraversal" syncable="YES"/>
+        <relationship name="name_tree" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="TreeType" inverseName="tree_name" inverseEntity="TreeType" syncable="YES"/>
+    </entity>
+    <entity name="TreeTraversal" representedClassName=".TreeTraversal" syncable="YES" codeGenerationType="category">
+        <attribute name="tree_traversal" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="traversal_name" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="TreeName" inverseName="name_traversal" inverseEntity="TreeName" syncable="YES"/>
+    </entity>
+    <entity name="TreeType" representedClassName=".TreeType" syncable="YES" codeGenerationType="category">
+        <attribute name="tree_type" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="tree_name" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="TreeName" inverseName="name_tree" inverseEntity="TreeName" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="TreeName" positionX="9" positionY="144" width="128" height="88"/>
+        <element name="TreeTraversal" positionX="295" positionY="297" width="128" height="73"/>
+        <element name="TreeType" positionX="-225" positionY="297" width="128" height="73"/>
+    </elements>
+</model>
